@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Canvas Scene</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Pokémon Scenes</h1>
+
+    <div>
+        <label><input type="radio" name="bg" value="bg1.png" checked> Plains</label>
+        <label><input type="radio" name="bg" value="bg2.png"> Forest</label>
+        <label><input type="radio" name="bg" value="bg3.png"> Fields</label>
+    </div>
+
+    <div>
+        <label>Move Character: <input type="range" id="slider" min="50" max="600" value="200"></label>
+    </div>
+
+    <div>
+        <label><input type="checkbox" id="item1Check"> Show Item 1</label>
+        <label><input type="checkbox" id="item2Check"> Show Item 2</label>
+        <label><input type="checkbox" id="item3Check"> Show Item 3</label>
+    </div>
+
+    <div>
+        <button onclick="playSound(1)">Birds</button>
+        <button onclick="playSound(2)">Pokémon Theme</button>
+        <button onclick="playSound(3)">Wind</button>
+    </div>
+
+    <canvas id="scene" width="800" height="600"></canvas>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
