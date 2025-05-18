@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Poke Facts</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body style="font-family: sans-serif; background-color: #f9f9f9;">
+
+    <div style="max-width: 1000px; margin: 0 auto; padding: 20px;">
+        <h1 style="text-align: center;">Poke Facts</h1>
+        <button id="installBtn" style="display: none;">Install Poke Facts App</button>
+
+
+        <div style="text-align: center;">
+            <button onclick="prevPokemon()">← Previous</button>
+            <button onclick="nextPokemon()">Next →</button>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 40px;">
+
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+
+
+
+                <canvas id="pokeCanvas" width="300" height="300" style="border: 1px solid #ccc;"></canvas>
+
+                <div id="spriteGrid" style="display: grid; grid-template-columns: repeat(4, 40px); gap: 10px; justify-content: center;">
+                </div>
+            </div>
+
+            <div id="infoBox" style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
+                <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background-color: #fff;">
+                    <h2 id="pokeTitle" style="margin-top: 0; text-align: center;"></h2>
+                    <p id="pokeDesc" style="margin-bottom: 0; text-align: center;"></p>
+                </div>
+
+                <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background-color: #fff;">
+                    <h3 style="margin-top: 0; text-align: center;">Details</h3>
+                    <table style="width: 100%; text-align: left; border-collapse: collapse;">
+                        <tr>
+                            <th>Pokédex #</th>
+                            <td id="pokeDex"></td>
+                        </tr>
+                        <tr>
+                            <th>Generation</th>
+                            <td id="pokeGen"></td>
+                        </tr>
+                        <tr>
+                            <th>Region</th>
+                            <td id="pokeRegion"></td>
+                        </tr>
+                        <tr>
+                            <th>Habitat</th>
+                            <td id="pokeHabitat"></td>
+                        </tr>
+                        <tr>
+                            <th>Abilities</th>
+                            <td id="pokeAbilities"></td>
+                        </tr>
+                        <tr>
+                            <th>Type</th>
+                            <td id="pokeType"></td>
+                        </tr>
+                        <tr>
+                            <th>Strong Against</th>
+                            <td id="pokeStrong"></td>
+                        </tr>
+                        <tr>
+                            <th>Weak Against</th>
+                            <td id="pokeWeak"></td>
+                        </tr>
+                        <tr>
+                            <th>Evolutions</th>
+                            <td id="pokeEvos"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+    <script src="scripts.js"></script>
+
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("service-worker.js")
+                .then(() => console.log("Service Worker Registered"))
+                .catch(error => console.error("Service Worker registration failed:", error));
+        }
+    </script>
+
+</body>
+
+</html>

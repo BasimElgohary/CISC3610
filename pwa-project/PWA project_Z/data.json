@@ -1,0 +1,414 @@
+{
+    "pokemon": [{
+            "name": "Bulbasaur",
+            "description": "Bulbasaur is a Grass/Poison-type Pokémon known for the plant bulb on its back.",
+            "image": "images/bulbasaur.png",
+            "sprite": "images/PK-bulbasaur.png",
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "generation": "Generation I",
+            "habitat": "Grasslands",
+            "abilities": [
+                "Overgrow",
+                "Chlorophyll"
+            ],
+            "weakAgainst": [
+                "Fire",
+                "Ice",
+                "Flying",
+                "Psychic"
+            ],
+            "strongAgainst": [
+                "Fighting",
+                "Water",
+                "Grass",
+                "Electric",
+                "Fairy"
+            ],
+            "region": "Kanto",
+            "evolutions": [
+                "Bulbasaur",
+                "Ivysaur",
+                "Venusaur"
+            ],
+            "sound": "bulbasaur.ogg",
+            "pokedexNumber": 1
+        },
+        {
+            "name": "Dragonite",
+            "description": "Dragonite is a Dragon/Flying-type Pokémon known for its strength and gentle nature. Despite its bulky appearance, it can fly faster than the speed of sound.",
+            "image": "images/dragonite.png",
+            "sprite": "images/PK-dragonite.png",
+            "type": [
+                "Dragon",
+                "Flying"
+            ],
+            "generation": "Generation I",
+            "habitat": "Oceans",
+            "abilities": [
+                "Inner Focus",
+                "Multiscale"
+            ],
+            "weakAgainst": [
+                "Ice",
+                "Dragon",
+                "Fairy",
+                "Rock"
+            ],
+            "strongAgainst": [
+                "Fire",
+                "Water",
+                "Grass",
+                "Fighting"
+            ],
+            "region": "Kanto",
+            "evolutions": [
+                "Dratini",
+                "Dragonair",
+                "Dragonite"
+            ],
+            "sound": "dragonite.ogg",
+            "pokedexNumber": 149
+        },
+        {
+            "name": "Diglett",
+            "description": "Diglett is a Ground-type Pokémon that lives underground. It surfaces rarely and dislikes sunlight, using its sharp claws to burrow through soil quickly.",
+            "image": "images/diglett.png",
+            "sprite": "images/PK-diglett.png",
+            "type": [
+                "Ground"
+            ],
+            "generation": "Generation I",
+            "habitat": "Caves",
+            "abilities": [
+                "Sand Veil",
+                "Arena Trap"
+            ],
+            "weakAgainst": [
+                "Water",
+                "Ice",
+                "Grass"
+            ],
+            "strongAgainst": [
+                "Electric",
+                "Rock",
+                "Poison",
+                "Fire"
+            ],
+            "region": "Kanto",
+            "evolutions": [
+                "Diglett",
+                "Dugtrio"
+            ],
+            "sound": "diglett.ogg",
+            "pokedexNumber": 50
+        },
+        {
+            "name": "Voltorb",
+            "pokedexNumber": 100,
+            "description": "Voltorb is an Electric-type Pokémon that resembles a Poké Ball. It is known to explode at the slightest shock.",
+            "image": "images/voltorb.png",
+            "sprite": "images/PK-voltorb.png",
+            "type": [
+                "Electric"
+            ],
+            "generation": "Generation I",
+            "habitat": "Power Plants",
+            "abilities": [
+                "Soundproof",
+                "Static",
+                "Aftermath"
+            ],
+            "weakAgainst": [
+                "Ground"
+            ],
+            "strongAgainst": [
+                "Flying",
+                "Water"
+            ],
+            "region": "Kanto",
+            "evolutions": [
+                "Voltorb",
+                "Electrode"
+            ],
+            "sound": "voltorb.ogg"
+        },
+        {
+            "name": "Haunter",
+            "pokedexNumber": 93,
+            "description": "Haunter is a Ghost/Poison-type Pokémon known for its mischievous and spooky behavior. It can phase through walls and paralyze prey with its tongue.",
+            "image": "images/haunter.png",
+            "sprite": "images/PK-haunter.png",
+            "type": [
+                "Ghost",
+                "Poison"
+            ],
+            "generation": "Generation I",
+            "habitat": "Caves",
+            "abilities": [
+                "Levitate"
+            ],
+            "weakAgainst": [
+                "Ghost",
+                "Psychic",
+                "Dark"
+            ],
+            "strongAgainst": [
+                "Grass",
+                "Fairy",
+                "Bug",
+                "Fighting"
+            ],
+            "region": "Kanto",
+            "evolutions": [
+                "Gastly",
+                "Haunter",
+                "Gengar"
+            ],
+            "sound": "haunter.ogg"
+        },
+        {
+            "name": "Alakazam",
+            "pokedexNumber": 65,
+            "description": "Alakazam is a powerful Psychic-type Pokémon with incredible intellect and telekinetic powers. It carries a spoon in each hand to amplify its abilities.",
+            "image": "images/alakazam.png",
+            "sprite": "images/PK-alakazam.png",
+            "type": [
+                "Psychic"
+            ],
+            "generation": "Generation I",
+            "habitat": "Urban",
+            "abilities": [
+                "Synchronize",
+                "Inner Focus",
+                "Magic Guard"
+            ],
+            "weakAgainst": [
+                "Bug",
+                "Ghost",
+                "Dark"
+            ],
+            "strongAgainst": [
+                "Fighting",
+                "Poison"
+            ],
+            "region": "Kanto",
+            "evolutions": [
+                "Abra",
+                "Kadabra",
+                "Alakazam"
+            ],
+            "sound": "alakazam.ogg"
+        },
+        {
+            "name": "Mew",
+            "pokedexNumber": 151,
+            "description": "Mew is a Mythical Psychic-type Pokémon said to contain the DNA of every other Pokémon. It is playful, elusive, and extremely powerful.",
+            "image": "images/mew.png",
+            "sprite": "images/PK-mew.png",
+            "type": [
+                "Psychic"
+            ],
+            "generation": "Generation I",
+            "habitat": "Rare",
+            "abilities": [
+                "Synchronize"
+            ],
+            "weakAgainst": [
+                "Bug",
+                "Ghost",
+                "Dark"
+            ],
+            "strongAgainst": [
+                "Fighting",
+                "Poison"
+            ],
+            "region": "Kanto",
+            "evolutions": [
+                "Mew"
+            ],
+            "sound": "mew.ogg"
+        },
+        {
+            "name": "Scizor",
+            "pokedexNumber": 212,
+            "description": "Scizor is a Bug/Steel-type Pokémon with metal claws and incredible speed. Its red body reflects sunlight like a mirror.",
+            "image": "images/scizor.png",
+            "sprite": "images/PK-scizor.png",
+            "type": [
+                "Bug",
+                "Steel"
+            ],
+            "generation": "Generation II",
+            "habitat": "Forests",
+            "abilities": [
+                "Swarm",
+                "Technician",
+                "Light Metal"
+            ],
+            "weakAgainst": [
+                "Fire"
+            ],
+            "strongAgainst": [
+                "Grass",
+                "Ice",
+                "Rock",
+                "Bug"
+            ],
+            "region": "Johto",
+            "evolutions": [
+                "Scyther",
+                "Scizor"
+            ],
+            "sound": "scizor.ogg"
+        },
+        {
+            "name": "Piplup",
+            "pokedexNumber": 393,
+            "description": "Piplup is a Water-type starter Pokémon known for its pride and independence. It swims gracefully through icy waters.",
+            "image": "images/piplup.png",
+            "sprite": "images/PK-piplup.png",
+            "type": [
+                "Water"
+            ],
+            "generation": "Generation IV",
+            "habitat": "Coasts",
+            "abilities": [
+                "Torrent",
+                "Defiant"
+            ],
+            "weakAgainst": [
+                "Electric",
+                "Grass"
+            ],
+            "strongAgainst": [
+                "Fire",
+                "Ground",
+                "Rock"
+            ],
+            "region": "Sinnoh",
+            "evolutions": [
+                "Piplup",
+                "Prinplup",
+                "Empoleon"
+            ],
+            "sound": "piplup.ogg"
+        },
+        {
+            "name": "Emolga",
+            "pokedexNumber": 587,
+            "description": "Emolga is an Electric/Flying-type Pokémon that glides between trees using its cape-like membrane. It generates electricity in its cheeks.",
+            "image": "images/emolga.png",
+            "sprite": "images/PK-emolga.png",
+            "type": [
+                "Electric",
+                "Flying"
+            ],
+            "generation": "Generation V",
+            "habitat": "Forests",
+            "abilities": [
+                "Static",
+                "Motor Drive"
+            ],
+            "weakAgainst": [
+                "Ice",
+                "Rock"
+            ],
+            "strongAgainst": [
+                "Flying",
+                "Water",
+                "Bug",
+                "Fighting"
+            ],
+            "region": "Unova",
+            "evolutions": [
+                "Emolga"
+            ],
+            "sound": "emolga.ogg"
+        },
+        {
+            "name": "Squirtle",
+            "pokedexNumber": 7,
+            "description": "Squirtle is a Water-type Pokémon that hides in its shell and sprays water at its foes. Its rounded shell provides protection and helps reduce drag in water.",
+            "image": "images/squirtle.png",
+            "sprite": "images/PK-squirtle.png",
+            "type": [
+                "Water"
+            ],
+            "generation": "Generation I",
+            "habitat": "Freshwater",
+            "abilities": [
+                "Torrent",
+                "Rain Dish"
+            ],
+            "weakAgainst": [
+                "Electric",
+                "Grass"
+            ],
+            "strongAgainst": [
+                "Fire",
+                "Ground",
+                "Rock"
+            ],
+            "region": "Kanto",
+            "evolutions": [
+                "Squirtle",
+                "Wartortle",
+                "Blastoise"
+            ],
+            "sound": "squirtle.ogg"
+        },
+        {
+            "name": "Charmander",
+            "pokedexNumber": 4,
+            "description": "Charmander is a Fire-type Pokémon with a flame burning at the tip of its tail. The flame's size indicates its health and mood.",
+            "image": "images/charmander.png",
+            "sprite": "images/PK-charmander.png",
+            "type": [
+                "Fire"
+            ],
+            "generation": "Generation I",
+            "habitat": "Mountains",
+            "abilities": [
+                "Blaze",
+                "Solar Power"
+            ],
+            "weakAgainst": [
+                "Water",
+                "Ground",
+                "Rock"
+            ],
+            "strongAgainst": [
+                "Bug",
+                "Steel",
+                "Grass",
+                "Ice"
+            ],
+            "region": "Kanto",
+            "evolutions": [
+                "Charmander",
+                "Charmeleon",
+                "Charizard"
+            ],
+            "sound": "charmander.ogg"
+        },
+        {
+            "name": "Togepi",
+            "pokedexNumber": 175,
+            "description": "Togepi is a Fairy-type Pokémon that stores happiness in its shell and shares it with those around it.",
+            "image": "images/togepi.png",
+            "type": ["Fairy"],
+            "generation": "Generation II",
+            "habitat": "Urban",
+            "abilities": ["Hustle", "Serene Grace", "Super Luck"],
+            "weakAgainst": ["Steel", "Poison"],
+            "strongAgainst": ["Dark", "Fighting", "Dragon"],
+            "region": "Johto",
+            "evolutions": ["Togepi", "Togetic", "Togekiss"],
+            "sound": "togepi.ogg"
+        }
+
+    ]
+}
