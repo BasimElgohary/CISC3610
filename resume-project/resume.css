@@ -1,0 +1,73 @@
+body {
+	background: #f8f9fa;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-top: 2rem;
+}
+
+section {
+	background: #fff;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+	padding: 2rem;
+	margin-bottom: 2rem;
+}
+
+.navbar {
+	margin-bottom: 2rem;
+}
+
+.carousel-inner {
+	min-height: 400px;
+}
+
+.carousel-item h4 {
+	font-size: 1.25rem;
+	font-weight: 600;
+	margin-top: 1rem;
+}
+
+.carousel-item p {
+	font-size: 1rem;
+	color: #555;
+}
+
+ul {
+	padding-left: 1.2rem;
+}
+
+.carousel-item img {
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	width: 5%;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
+	height: 40px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.carousel-indicators {
+	bottom: -50px;
+}
+
+.carousel-indicators button {
+	background-color: #666;
+}
+
+#projectCarousel {
+	padding-bottom: 3rem;
+}
